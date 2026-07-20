@@ -1,0 +1,10 @@
+[project]
+name = "senko-translate"
+version = "0.1.0"
+description = "Tools for translating the Senko-san to Isshou game"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["python-dotenv==1.0.0"]
+
+[tool.setuptools]
+packages = []

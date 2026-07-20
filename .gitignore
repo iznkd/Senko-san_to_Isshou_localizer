@@ -7,5 +7,6 @@ wheels/
 *.egg-info
 .gitconfig
 .env
+tools/.env
 # Virtual environments
 .venv

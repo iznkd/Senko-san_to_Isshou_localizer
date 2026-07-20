@@ -1,0 +1,68 @@
+
+212.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 511, 1548
+  size: 387, 279
+  orig: 387, 279
+  offset: 0, 0
+  index: -1
+BgPink1
+  rotate: false
+  xy: 2, 2
+  size: 1014, 655
+  orig: 1014, 655
+  offset: 0, 0
+  index: -1
+BgWhite
+  rotate: false
+  xy: 2, 988
+  size: 770, 558
+  orig: 770, 558
+  offset: 0, 0
+  index: -1
+Efkira
+  rotate: false
+  xy: 774, 659
+  size: 1045, 614
+  orig: 1045, 614
+  offset: 0, 0
+  index: -1
+Efmaru1
+  rotate: false
+  xy: 2, 1554
+  size: 507, 273
+  orig: 507, 273
+  offset: 0, 0
+  index: -1
+Efmaru2
+  rotate: false
+  xy: 900, 1275
+  size: 913, 552
+  orig: 913, 552
+  offset: 0, 0
+  index: -1
+
+2122.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BgPink2
+  rotate: false
+  xy: 2, 70
+  size: 1045, 698
+  orig: 1045, 698
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: false
+  xy: 2, 770
+  size: 1953, 1185
+  orig: 1953, 1185
+  offset: 0, 0
+  index: -1
