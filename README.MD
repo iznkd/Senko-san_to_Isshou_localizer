@@ -10,6 +10,8 @@ original_app.apk\assets\bin\Data\datapack.unity3d
 
 By unpacking, editing, and repacking that `datapack.unity3d` file, you can play the game in another language without needing to read Japanese (or modify it in some other way). This project also covers the harder-to-translate parts such as GUI images (buttons, menus, illustrations) that contain embedded Japanese text.
 
+> **Tip:** The easiest way to patch your APK is to use the **[online patcher](https://senko-san-to-isshou-localizer-site.vercel.app/)**. If a premade datapack is already available for your language, upload it along with your original APK. Otherwise, translate the assets yourself first, then upload your original APK and modified `datapack.unity3d`. The site handles resigning and repackaging for you.
+
 ## A community effort
 
 This project is a fan-driven, community effort. It only gets better when people like you help out, whether that means translating into a new language, reviewing machine-translated text, editing GUI images, improving the scripts, or fixing documentation.
