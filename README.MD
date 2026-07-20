@@ -118,6 +118,12 @@ Without a DeepL key, the scripts fall back to Google Translate.
 - Do not redistribute copyrighted game assets or patched APKs.
 - Machine translation (Google / DeepL) is a good starting point, but it may miss nuance. Manual review is recommended.
 
+## Preview
+
+![Preview 1](images/prev1.png)
+
+![Preview 2](images/prev2.png)
+
 ## Disclaimer
 
 This project is an unofficial fan effort. All game names, characters, and assets belong to their respective owners.
