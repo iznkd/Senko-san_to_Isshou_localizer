@@ -10,6 +10,19 @@ original_app.apk\assets\bin\Data\datapack.unity3d
 
 By unpacking, editing, and repacking that `datapack.unity3d` file, you can play the game in another language without needing to read Japanese (or modify it in some other way). This project also covers the harder-to-translate parts such as GUI images (buttons, menus, illustrations) that contain embedded Japanese text.
 
+## A community effort
+
+This project is a fan-driven, community effort. It only gets better when people like you help out, whether that means translating into a new language, reviewing machine-translated text, editing GUI images, improving the scripts, or fixing documentation.
+
+Ways to contribute:
+
+- **Add or finish a language** — create a folder under `assets/` with the right two-letter code and run the translation scripts.
+- **Review and improve translations** — machine translation is a starting point; manual review makes a big difference for story-heavy games.
+- **Translate GUI images** — buttons, menus, and illustrations still need manual editing. If you can automate this or want to contribute edited assets, open a pull request.
+- **Improve the tools** — bug fixes, new features, and better documentation are always welcome.
+
+If you want to help, open an issue or pull request on GitHub. Every contribution, no matter how small, helps more people enjoy the game.
+
 ## What you can do here
 
 - Extract the original `datapack.unity3d` from the APK.
