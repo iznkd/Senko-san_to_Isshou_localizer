@@ -16,7 +16,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 # Regex matching JSON string values for "message" or "select_<number>" keys.
 FIELD_RE = re.compile(
-    r'"(?P<key>message|select_\d+)"(?P<sep>\s*:\s*)"(?P<val>(?:[^"\\]|\\.)*)"'
+    r'"(?P<key>message|select_\d+|Title)"(?P<sep>\s*:\s*)"(?P<val>(?:[^"\\]|\\.)*)"'
 )
 
 # Regex that detects any Japanese script (Hiragana, Katakana, Kanji/CJK).

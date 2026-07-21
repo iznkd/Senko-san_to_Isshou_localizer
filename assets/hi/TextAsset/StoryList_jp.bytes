@@ -5,289 +5,289 @@
       {
         "No": 1,
         "File_Name": "story01",
-        "Title": "ファントゥーム王国の大事件",
+        "Title": "फैंटोम के राज्य में एक प्रमुख घटना",
         "Summary": "1-1"
       },
       {
         "No": 2,
         "File_Name": "story02",
-        "Title": "仲間の為に一致団結",
+        "Title": "हमारे साथियों के लिए एकजुट होकर खड़े हैं",
         "Summary": "1-1"
       },
       {
         "No": 3,
         "File_Name": "story03",
-        "Title": "おばけは良い建築材料",
+        "Title": "भूत अच्छे निर्माण सामग्री बनाते हैं।",
         "Summary": "1-4"
       },
       {
         "No": 4,
         "File_Name": "story04",
-        "Title": "パルミュールはウェーイ系",
+        "Title": "पाल्मूर 'वू-हू' प्रकार का है।",
         "Summary": "1-4"
       },
       {
         "No": 5,
         "File_Name": "story05",
-        "Title": "死神の血筋を持つ者",
+        "Title": "रीपर की वंशावली के",
         "Summary": "1-7"
       },
       {
         "No": 6,
         "File_Name": "story06",
-        "Title": "ゴムの性質に懸ける職人達",
+        "Title": "रबर के गुणों पर निर्भर कारीगर",
         "Summary": "1-7"
       },
       {
         "No": 7,
         "File_Name": "story07",
-        "Title": "フーと魔女",
+        "Title": "फू और चुड़ैल",
         "Summary": "2-1"
       },
       {
         "No": 8,
         "File_Name": "story08",
-        "Title": "姫さまのハンマー勉強会",
+        "Title": "राजकुमारी का हथौड़ा कार्यशाला",
         "Summary": "2-1"
       },
       {
         "No": 9,
         "File_Name": "story09",
-        "Title": "とぼけた顔してドSなアイツ",
+        "Title": "वो आदमी मासूम चेहरे वाला, लेकिन उसमें क्रूरता की एक धार है।",
         "Summary": "2-4"
       },
       {
         "No": 10,
         "File_Name": "story10",
-        "Title": "魔女の真の目的",
+        "Title": "चुड़ैल का असली उद्देश्य",
         "Summary": "2-4"
       },
       {
         "No": 11,
         "File_Name": "story11",
-        "Title": "ハンマー通り魔事件",
+        "Title": "हैमर रैंपज घटना",
         "Summary": "2-7"
       },
       {
         "No": 12,
         "File_Name": "story12",
-        "Title": "気持ち良かったならいいでしょ",
+        "Title": "अगर आपको इसका आनंद आया, तो बस यही मायने रखता है, है ना?",
         "Summary": "2-7"
       },
       {
         "No": 13,
         "File_Name": "story13",
-        "Title": "タンタシオンの湖のおまじない",
+        "Title": "टैंटेशियन झील का जादू",
         "Summary": "3-1"
       },
       {
         "No": 14,
         "File_Name": "story14",
-        "Title": "幼いころの思い出",
+        "Title": "बचपन की यादें",
         "Summary": "3-1"
       },
       {
         "No": 15,
         "File_Name": "story15",
-        "Title": "アクアとフー",
+        "Title": "अक्वा और फू",
         "Summary": "3-5"
       },
       {
         "No": 16,
         "File_Name": "story16",
-        "Title": "涙の理由は",
+        "Title": "आँसुओं का कारण है",
         "Summary": "3-5"
       },
       {
         "No": 17,
         "File_Name": "story17",
-        "Title": "悪人は悪人らしく",
+        "Title": "एक खलनायक को खलनायक की तरह ही व्यवहार करना चाहिए।",
         "Summary": "3-9"
       },
       {
         "No": 18,
         "File_Name": "story18",
-        "Title": "予期せぬ言葉",
+        "Title": "अप्रत्याशित शब्द",
         "Summary": "3-9"
       },
       {
         "No": 19,
         "File_Name": "story19",
-        "Title": "アウローラは急に止まれない",
+        "Title": "ऑरोरा अचानक रुक नहीं सकती।",
         "Summary": "4-1"
       },
       {
         "No": 20,
         "File_Name": "story20",
-        "Title": "水面に揺れる姿",
+        "Title": "उसकी आकृति पानी की सतह पर लहरों में डोल रही है।",
         "Summary": "4-1"
       },
       {
         "No": 21,
         "File_Name": "story21",
-        "Title": "埋葬のお礼",
+        "Title": "अंत्येष्टि के लिए आभार",
         "Summary": "4-5"
       },
       {
         "No": 22,
         "File_Name": "story22",
-        "Title": "スピサの反論",
+        "Title": "स्पीसा का खंडन",
         "Summary": "4-5"
       },
       {
         "No": 23,
         "File_Name": "story23",
-        "Title": "フーとアウローラ",
+        "Title": "फू और अरोरा",
         "Summary": "4-9"
       },
       {
         "No": 24,
         "File_Name": "story24",
-        "Title": "過去の悪しき風習",
+        "Title": "भूतपूर्व हानिकारक रीति-रिवाज",
         "Summary": "4-9"
       },
       {
         "No": 25,
         "File_Name": "story25",
-        "Title": "仄暗いデモナスの森",
+        "Title": "अंधेरी रोशनी वाला डेमोनास का जंगल",
         "Summary": "5-1"
       },
       {
         "No": 26,
         "File_Name": "story26",
-        "Title": "魔女の不敵な微笑み",
+        "Title": "चुड़ैल की अवज्ञाकारी मुस्कान",
         "Summary": "5-1"
       },
       {
         "No": 27,
         "File_Name": "story27",
-        "Title": "闇の精霊ブーヨ",
+        "Title": "बौयो, अँधेरे की आत्मा",
         "Summary": "5-6"
       },
       {
         "No": 28,
         "File_Name": "story28",
-        "Title": "選ばれたほう",
+        "Title": "चुना हुआ",
         "Summary": "5-6"
       },
       {
         "No": 29,
         "File_Name": "story29",
-        "Title": "森を駆ける魔女",
+        "Title": "जंगल में दौड़ने वाली चुड़ैल",
         "Summary": "5-11"
       },
       {
         "No": 30,
         "File_Name": "story30",
-        "Title": "光の精霊ルーチェ",
+        "Title": "ल्यूस, प्रकाश की आत्मा",
         "Summary": "5-11"
       },
       {
         "No": 31,
         "File_Name": "story31",
-        "Title": "スターライトハンマーの秘密",
+        "Title": "तारों की रोशनी वाले हथौड़े का रहस्य",
         "Summary": "6-1"
       },
       {
         "No": 32,
         "File_Name": "story32",
-        "Title": "王国の過ち",
+        "Title": "राज्य की भूल",
         "Summary": "6-1"
       },
       {
         "No": 33,
         "File_Name": "story33",
-        "Title": "対面する姉妹",
+        "Title": "एक-दूसरे का सामना करती बहनें",
         "Summary": "6-6"
       },
       {
         "No": 34,
         "File_Name": "story34",
-        "Title": "セラータの悲願",
+        "Title": "सेराटा का लंबे समय से संजोया हुआ सपना",
         "Summary": "6-6"
       },
       {
         "No": 35,
         "File_Name": "story35",
-        "Title": "のどかな午後",
+        "Title": "एक शांतिपूर्ण दोपहर",
         "Summary": "6-11"
       },
       {
         "No": 36,
         "File_Name": "story36",
-        "Title": "アクアのお説教",
+        "Title": "एक्वा का व्याख्यान",
         "Summary": "6-11"
       },
       {
         "No": 37,
         "File_Name": "story37",
-        "Title": "ノブレスハンマー継承の日",
+        "Title": "कुलीनों के हथौड़े के उत्तराधिकार का दिन",
         "Summary": "7-1"
       },
       {
         "No": 38,
         "File_Name": "story38",
-        "Title": "アウローラの葛藤",
+        "Title": "ऑरोरा का संघर्ष",
         "Summary": "7-1"
       },
       {
         "No": 39,
         "File_Name": "story39",
-        "Title": "精霊たちの交渉",
+        "Title": "आत्माओं की बातचीत",
         "Summary": "7-9"
       },
       {
         "No": 40,
         "File_Name": "story40",
-        "Title": "変わらない２人の関係",
+        "Title": "उन दोनों के बीच का अटूट संबंध",
         "Summary": "7-9"
       },
       {
         "No": 41,
         "File_Name": "story41",
-        "Title": "ハリボテの幸福",
+        "Title": "एक खोखली खुशी",
         "Summary": "8-4"
       },
       {
         "No": 42,
         "File_Name": "story42",
-        "Title": "魔法の代償",
+        "Title": "जादू की कीमत",
         "Summary": "8-4"
       },
       {
         "No": 43,
         "File_Name": "story43",
-        "Title": "生贄のフー",
+        "Title": "फू बलिदान",
         "Summary": "8-11"
       },
       {
         "No": 44,
         "File_Name": "story44",
-        "Title": "これからいくらでも",
+        "Title": "और भी बहुत कुछ आने वाला है",
         "Summary": "8-11"
       },
       {
         "No": 45,
         "File_Name": "story45",
-        "Title": "スターライトハンマーの力",
+        "Title": "तारों की रोशनी वाले हथौड़े की शक्ति",
         "Summary": "8-15"
       },
       {
         "No": 46,
         "File_Name": "story46",
-        "Title": "おばけたちの声援",
+        "Title": "भूतों की ओर से शुभकामनाएँ",
         "Summary": "8-15"
       },
       {
         "No": 47,
         "File_Name": "story47",
-        "Title": "２人の姫",
+        "Title": "दो राजकुमारियाँ",
         "Summary": "8-16"
       },
       {
         "No": 48,
         "File_Name": "story48",
-        "Title": "フーとセラータ",
+        "Title": "फू और सेराटा",
         "Summary": "8-16",
         "NextEpisodeLine":"Ending"
 
@@ -295,7 +295,7 @@
       {
         "No": 49,
         "File_Name": "story49",
-        "Title": "夢の中の続き",
+        "Title": "स्वप्न का निरंतरता",
         "Summary": "Epilog",
         "NextEpisodeLine":"Credit"
 

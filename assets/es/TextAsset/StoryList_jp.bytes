@@ -5,289 +5,289 @@
       {
         "No": 1,
         "File_Name": "story01",
-        "Title": "ファントゥーム王国の大事件",
+        "Title": "El gran suceso del Reino de Fantom",
         "Summary": "1-1"
       },
       {
         "No": 2,
         "File_Name": "story02",
-        "Title": "仲間の為に一致団結",
+        "Title": "Unidos por nuestros compañeros",
         "Summary": "1-1"
       },
       {
         "No": 3,
         "File_Name": "story03",
-        "Title": "おばけは良い建築材料",
+        "Title": "Los fantasmas son un buen material de construcción",
         "Summary": "1-4"
       },
       {
         "No": 4,
         "File_Name": "story04",
-        "Title": "パルミュールはウェーイ系",
+        "Title": "Palmuir es del tipo «¡Yuju!».",
         "Summary": "1-4"
       },
       {
         "No": 5,
         "File_Name": "story05",
-        "Title": "死神の血筋を持つ者",
+        "Title": "Aquellos que descienden de la estirpe de la Muerte",
         "Summary": "1-7"
       },
       {
         "No": 6,
         "File_Name": "story06",
-        "Title": "ゴムの性質に懸ける職人達",
+        "Title": "Artesanos que confían en las propiedades del caucho",
         "Summary": "1-7"
       },
       {
         "No": 7,
         "File_Name": "story07",
-        "Title": "フーと魔女",
+        "Title": "Foo y la bruja",
         "Summary": "2-1"
       },
       {
         "No": 8,
         "File_Name": "story08",
-        "Title": "姫さまのハンマー勉強会",
+        "Title": "Taller de martillo de la princesa",
         "Summary": "2-1"
       },
       {
         "No": 9,
         "File_Name": "story09",
-        "Title": "とぼけた顔してドSなアイツ",
+        "Title": "Ese tipo con cara de tonto pero que es un auténtico sádico",
         "Summary": "2-4"
       },
       {
         "No": 10,
         "File_Name": "story10",
-        "Title": "魔女の真の目的",
+        "Title": "El verdadero objetivo de la bruja",
         "Summary": "2-4"
       },
       {
         "No": 11,
         "File_Name": "story11",
-        "Title": "ハンマー通り魔事件",
+        "Title": "El caso del agresor con martillo",
         "Summary": "2-7"
       },
       {
         "No": 12,
         "File_Name": "story12",
-        "Title": "気持ち良かったならいいでしょ",
+        "Title": "Si te ha gustado, pues ya está, ¿no?",
         "Summary": "2-7"
       },
       {
         "No": 13,
         "File_Name": "story13",
-        "Title": "タンタシオンの湖のおまじない",
+        "Title": "El hechizo del lago de Tantación",
         "Summary": "3-1"
       },
       {
         "No": 14,
         "File_Name": "story14",
-        "Title": "幼いころの思い出",
+        "Title": "Recuerdos de mi infancia",
         "Summary": "3-1"
       },
       {
         "No": 15,
         "File_Name": "story15",
-        "Title": "アクアとフー",
+        "Title": "Aqua y Fu",
         "Summary": "3-5"
       },
       {
         "No": 16,
         "File_Name": "story16",
-        "Title": "涙の理由は",
+        "Title": "El motivo de las lágrimas es",
         "Summary": "3-5"
       },
       {
         "No": 17,
         "File_Name": "story17",
-        "Title": "悪人は悪人らしく",
+        "Title": "Los malos, como buenos malos...",
         "Summary": "3-9"
       },
       {
         "No": 18,
         "File_Name": "story18",
-        "Title": "予期せぬ言葉",
+        "Title": "Palabras inesperadas",
         "Summary": "3-9"
       },
       {
         "No": 19,
         "File_Name": "story19",
-        "Title": "アウローラは急に止まれない",
+        "Title": "Aurora no puede frenar de repente",
         "Summary": "4-1"
       },
       {
         "No": 20,
         "File_Name": "story20",
-        "Title": "水面に揺れる姿",
+        "Title": "Su silueta se refleja en la superficie del agua",
         "Summary": "4-1"
       },
       {
         "No": 21,
         "File_Name": "story21",
-        "Title": "埋葬のお礼",
+        "Title": "Agradecimiento por el entierro",
         "Summary": "4-5"
       },
       {
         "No": 22,
         "File_Name": "story22",
-        "Title": "スピサの反論",
+        "Title": "La réplica de Spisa",
         "Summary": "4-5"
       },
       {
         "No": 23,
         "File_Name": "story23",
-        "Title": "フーとアウローラ",
+        "Title": "Fú y Aurora",
         "Summary": "4-9"
       },
       {
         "No": 24,
         "File_Name": "story24",
-        "Title": "過去の悪しき風習",
+        "Title": "Costumbres negativas del pasado",
         "Summary": "4-9"
       },
       {
         "No": 25,
         "File_Name": "story25",
-        "Title": "仄暗いデモナスの森",
+        "Title": "El sombrío bosque de Demonas",
         "Summary": "5-1"
       },
       {
         "No": 26,
         "File_Name": "story26",
-        "Title": "魔女の不敵な微笑み",
+        "Title": "La sonrisa desafiante de la bruja",
         "Summary": "5-1"
       },
       {
         "No": 27,
         "File_Name": "story27",
-        "Title": "闇の精霊ブーヨ",
+        "Title": "Bouyo, el espíritu de la oscuridad",
         "Summary": "5-6"
       },
       {
         "No": 28,
         "File_Name": "story28",
-        "Title": "選ばれたほう",
+        "Title": "La opción elegida",
         "Summary": "5-6"
       },
       {
         "No": 29,
         "File_Name": "story29",
-        "Title": "森を駆ける魔女",
+        "Title": "La bruja que corre por el bosque",
         "Summary": "5-11"
       },
       {
         "No": 30,
         "File_Name": "story30",
-        "Title": "光の精霊ルーチェ",
+        "Title": "Luce, el espíritu de la luz",
         "Summary": "5-11"
       },
       {
         "No": 31,
         "File_Name": "story31",
-        "Title": "スターライトハンマーの秘密",
+        "Title": "El secreto del martillo Starlight",
         "Summary": "6-1"
       },
       {
         "No": 32,
         "File_Name": "story32",
-        "Title": "王国の過ち",
+        "Title": "El error del reino",
         "Summary": "6-1"
       },
       {
         "No": 33,
         "File_Name": "story33",
-        "Title": "対面する姉妹",
+        "Title": "Las hermanas cara a cara",
         "Summary": "6-6"
       },
       {
         "No": 34,
         "File_Name": "story34",
-        "Title": "セラータの悲願",
+        "Title": "El sueño de Sellata",
         "Summary": "6-6"
       },
       {
         "No": 35,
         "File_Name": "story35",
-        "Title": "のどかな午後",
+        "Title": "Una tarde tranquila",
         "Summary": "6-11"
       },
       {
         "No": 36,
         "File_Name": "story36",
-        "Title": "アクアのお説教",
+        "Title": "La charla de Aqua",
         "Summary": "6-11"
       },
       {
         "No": 37,
         "File_Name": "story37",
-        "Title": "ノブレスハンマー継承の日",
+        "Title": "El día de la sucesión del Martillo de Noblesse",
         "Summary": "7-1"
       },
       {
         "No": 38,
         "File_Name": "story38",
-        "Title": "アウローラの葛藤",
+        "Title": "El conflicto de Aurora",
         "Summary": "7-1"
       },
       {
         "No": 39,
         "File_Name": "story39",
-        "Title": "精霊たちの交渉",
+        "Title": "Las negociaciones de los espíritus",
         "Summary": "7-9"
       },
       {
         "No": 40,
         "File_Name": "story40",
-        "Title": "変わらない２人の関係",
+        "Title": "La relación entre ambos, que no cambia",
         "Summary": "7-9"
       },
       {
         "No": 41,
         "File_Name": "story41",
-        "Title": "ハリボテの幸福",
+        "Title": "Una felicidad de pacotilla",
         "Summary": "8-4"
       },
       {
         "No": 42,
         "File_Name": "story42",
-        "Title": "魔法の代償",
+        "Title": "El precio de la magia",
         "Summary": "8-4"
       },
       {
         "No": 43,
         "File_Name": "story43",
-        "Title": "生贄のフー",
+        "Title": "Foo, el sacrificado",
         "Summary": "8-11"
       },
       {
         "No": 44,
         "File_Name": "story44",
-        "Title": "これからいくらでも",
+        "Title": "A partir de ahora, todo lo que quieras",
         "Summary": "8-11"
       },
       {
         "No": 45,
         "File_Name": "story45",
-        "Title": "スターライトハンマーの力",
+        "Title": "El poder del Martillo Starlight",
         "Summary": "8-15"
       },
       {
         "No": 46,
         "File_Name": "story46",
-        "Title": "おばけたちの声援",
+        "Title": "Los ánimos de los fantasmas",
         "Summary": "8-15"
       },
       {
         "No": 47,
         "File_Name": "story47",
-        "Title": "２人の姫",
+        "Title": "Las dos princesas",
         "Summary": "8-16"
       },
       {
         "No": 48,
         "File_Name": "story48",
-        "Title": "フーとセラータ",
+        "Title": "Fú y Serata",
         "Summary": "8-16",
         "NextEpisodeLine":"Ending"
 
@@ -295,7 +295,7 @@
       {
         "No": 49,
         "File_Name": "story49",
-        "Title": "夢の中の続き",
+        "Title": "La continuación del sueño",
         "Summary": "Epilog",
         "NextEpisodeLine":"Credit"
 

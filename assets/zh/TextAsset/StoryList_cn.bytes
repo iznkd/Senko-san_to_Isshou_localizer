@@ -5,7 +5,7 @@
       {
         "No": 1,
         "File_Name": "story01_ch",
-        "Title": "幽灵王国大事件",
+        "Title": "幽灵王国的大事件",
         "Summary": "1-1"
       },
       {
@@ -17,13 +17,13 @@
       {
         "No": 3,
         "File_Name": "story03_ch",
-        "Title": "妖怪是优质建筑材料",
+        "Title": "妖怪是优质的建筑材料",
         "Summary": "1-4"
       },
       {
         "No": 4,
         "File_Name": "story04_ch",
-        "Title": "疯爽的帕鲁宓乌鲁",
+        "Title": "疯狂又畅快的帕鲁宓乌鲁",
         "Summary": "1-4"
       },
       {
@@ -35,7 +35,7 @@
       {
         "No": 6,
         "File_Name": "story06_ch",
-        "Title": "倾力于橡胶质量的工匠们",
+        "Title": "致力于橡胶质量的工匠们",
         "Summary": "1-7"
       },
       {
@@ -59,31 +59,31 @@
       {
         "No": 10,
         "File_Name": "story10_ch",
-        "Title": "魔女的真实目的",
+        "Title": "女巫的真实目的",
         "Summary": "2-4"
       },
       {
         "No": 11,
         "File_Name": "story11_ch",
-        "Title": "练锤之暴君事件",
+        "Title": "“锤练暴君”事件",
         "Summary": "2-7"
       },
       {
         "No": 12,
         "File_Name": "story12_ch",
-        "Title": "结果好就可以",
+        "Title": "只要结果好就行",
         "Summary": "2-7"
       },
       {
         "No": 13,
         "File_Name": "story13_ch",
-        "Title": "诱惑之湖的魔咒",
+        "Title": "《诱惑之湖》的诅咒",
         "Summary": "3-1"
       },
       {
         "No": 14,
         "File_Name": "story14_ch",
-        "Title": "儿时记忆",
+        "Title": "童年回忆",
         "Summary": "3-1"
       },
       {
@@ -95,37 +95,37 @@
       {
         "No": 16,
         "File_Name": "story16_ch",
-        "Title": "眼泪的理由",
+        "Title": "流泪的理由",
         "Summary": "3-5"
       },
       {
         "No": 17,
         "File_Name": "story17_ch",
-        "Title": "恶人就应该有恶人样",
+        "Title": "坏人就该像个坏人",
         "Summary": "3-9"
       },
       {
         "No": 18,
         "File_Name": "story18_ch",
-        "Title": "出乎意料的话语",
+        "Title": "出人意料的话",
         "Summary": "3-9"
       },
       {
         "No": 19,
         "File_Name": "story19_ch",
-        "Title": "奥罗拉无法停止身形",
+        "Title": "奥罗拉无法停止移动",
         "Summary": "4-1"
       },
       {
         "No": 20,
         "File_Name": "story20_ch",
-        "Title": "湖面摇曳的身影",
+        "Title": "湖面上摇曳的身影",
         "Summary": "4-1"
       },
       {
         "No": 21,
         "File_Name": "story21_ch",
-        "Title": "帮助埋葬的谢礼",
+        "Title": "对协助安葬的谢礼",
         "Summary": "4-5"
       },
       {
@@ -143,7 +143,7 @@
       {
         "No": 24,
         "File_Name": "story24_ch",
-        "Title": "旧恶俗",
+        "Title": "旧时的低俗之风",
         "Summary": "4-9"
       },
       {
@@ -155,25 +155,25 @@
       {
         "No": 26,
         "File_Name": "story26_ch",
-        "Title": "魔女的无敌微笑",
+        "Title": "女巫那无敌的微笑",
         "Summary": "5-1"
       },
       {
         "No": 27,
         "File_Name": "story27_ch",
-        "Title": "暗精灵卟唷",
+        "Title": "暗精灵噢",
         "Summary": "5-6"
       },
       {
         "No": 28,
         "File_Name": "story28_ch",
-        "Title": "天命之人",
+        "Title": "天选之子",
         "Summary": "5-6"
       },
       {
         "No": 29,
         "File_Name": "story29_ch",
-        "Title": "奔向森林的魔女",
+        "Title": "奔向森林的女巫",
         "Summary": "5-11"
       },
       {
@@ -185,7 +185,7 @@
       {
         "No": 31,
         "File_Name": "story31_ch",
-        "Title": "星光锤的秘密",
+        "Title": "《星光锤的秘密》",
         "Summary": "6-1"
       },
       {
@@ -197,13 +197,13 @@
       {
         "No": 33,
         "File_Name": "story33_ch",
-        "Title": "姐妹相逢",
+        "Title": "姐妹重逢",
         "Summary": "6-6"
       },
       {
         "No": 34,
         "File_Name": "story34_ch",
-        "Title": "瑟拉妲的悲愿",
+        "Title": "塞拉达的悲愿",
         "Summary": "6-6"
       },
       {
@@ -221,13 +221,13 @@
       {
         "No": 37,
         "File_Name": "story37_ch",
-        "Title": "贵族锤继承日",
+        "Title": "贵族之锤继承日",
         "Summary": "7-1"
       },
       {
         "No": 38,
         "File_Name": "story38_ch",
-        "Title": "奥罗拉的心里疙瘩",
+        "Title": "奥罗拉心中的心结",
         "Summary": "7-1"
       },
       {
@@ -239,7 +239,7 @@
       {
         "No": 40,
         "File_Name": "story40_ch",
-        "Title": "不变的２人关系",
+        "Title": "不变的两人关系",
         "Summary": "7-9"
       },
       {
@@ -287,7 +287,7 @@
       {
         "No": 48,
         "File_Name": "story48_ch",
-        "Title": "伏和瑟拉妲",
+        "Title": "伏和塞拉达",
         "Summary": "8-16",
         "NextEpisodeLine":"Ending"
 
@@ -295,7 +295,7 @@
       {
         "No": 49,
         "File_Name": "story49_ch",
-        "Title": "幸福永远",
+        "Title": "幸福永恒",
         "Summary": "Epilog",
         "NextEpisodeLine":"Credit"
 
