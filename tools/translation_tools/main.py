@@ -235,6 +235,55 @@ def patch_datapack(lang_dir: Path, lang: str) -> None:
     if skipped:
         print(f"  Not found in bundle: {', '.join(skipped)}")
 
+    # Replace images if the lang has an img/ folder
+    img_dir = lang_dir / "img"
+    if img_dir.exists() and any(img_dir.iterdir()):
+        from PIL import Image
+
+        img_files = {p.stem: p for p in img_dir.iterdir()
+                     if p.is_file() and p.suffix.lower() in ('.png', '.jpg', '.jpeg', '.bmp')}
+        print(f"\n  Replacing {len(img_files)} image(s) from {img_dir.name}/...")
+
+        # Build export_name -> obj mapping (handles duplicate names like AssetRipper)
+        name_counts: dict[str, int] = {}
+        img_replaced = 0
+        for obj in env.objects:
+            if obj.type.name not in ("Texture2D", "Sprite"):
+                continue
+            data = obj.read()
+            name = data.m_Name
+
+            if name in name_counts:
+                export_name = f"{name}_{name_counts[name]}"
+                name_counts[name] += 1
+            else:
+                export_name = name
+                name_counts[name] = 0
+
+            if export_name in img_files:
+                img = Image.open(img_files[export_name])
+                data.image = img
+                data.save()
+                print(f"    Replaced: {export_name} ({img.size[0]}x{img.size[1]})")
+                img_replaced += 1
+
+        print(f"  Replaced {img_replaced}/{len(img_files)} image(s)")
+        if img_replaced < len(img_files):
+            replaced_names = set()
+            nc2: dict[str, int] = {}
+            for obj in env.objects:
+                if obj.type.name in ("Texture2D", "Sprite"):
+                    n = obj.read().m_Name
+                    en = f"{n}_{nc2[n]}" if n in nc2 else n
+                    nc2[n] = nc2.get(n, -1) + 1
+                    if en in img_files:
+                        replaced_names.add(en)
+            not_found = sorted(set(img_files.keys()) - replaced_names)
+            if not_found:
+                print(f"  Not found in bundle: {not_found}")
+    else:
+        print(f"\n  No img/ folder found for '{lang}', skipping image replacement.")
+
     # Save the patched datapack
     output_path = lang_dir / f"{lang}.unity3d"
     output_path.parent.mkdir(parents=True, exist_ok=True)

@@ -13,9 +13,10 @@ These tools translate the game's Japanese `TextAsset` files into another languag
 assets/
 ├── original/
 │   ├── TextAsset/          # Japanese source .bytes files
-│   └── datapack.unity3d    # Original game datapack
+│   └── datapack.unity3d    # Original game datapack (you will need to extract one)
 ├── en/                     # Target language folder (example: English)
 │   ├── TextAsset/          # Translated .bytes files
+│   ├── img/                # (optional) Translated GUI images
 │   ├── converted_assets/   # Wrapped assets (m_Name / m_Script format)
 │   ├── translations.json   # Cache of original → translated strings
 │   └── en.unity3d          # Patched datapack (output)
@@ -23,7 +24,6 @@ assets/
     └── ...
 fonts/
 ├── SourceSans3-Bold.ttf    # Default font (Latin/Cyrillic)
-├── NotoSansArabic-Bold.ttf # For Arabic
 └── ...                     # See fonts/README.md for recommendations
 ```
 
@@ -81,7 +81,8 @@ The script will:
 11. Expand the glyph and character tables for any codepoints missing from the original font.
 12. Patch face info (line height, ascender, descender, etc.) to match the replacement font.
 13. Replace TextAssets in `datapack.unity3d` with the translated versions.
-14. Save the patched datapack to `assets/{lang}/{lang}.unity3d`.
+14. Replace GUI images from `assets/{lang}/img/` if the folder exists (matching by filename).
+15. Save the patched datapack to `assets/{lang}/{lang}.unity3d`.
 
 ### 3. Translate only (no patching)
 

@@ -59,6 +59,7 @@ Everything is handled by a single Python script. The script uses [UnityPy](https
    - Prompt you to select a replacement font from `fonts/`.
    - Generate an SDF atlas and patch the font asset.
    - Replace TextAssets in `datapack.unity3d` with translated versions.
+   - Replace GUI images from `assets/{lang}/img/` if the folder exists.
    - Save the patched datapack to `assets/{lang}/{lang}.unity3d`.
 
    If your language is not available, create a folder with a `TextAsset/` subfolder under `assets/` using the language's two-letter code.
@@ -66,7 +67,9 @@ Everything is handled by a single Python script. The script uses [UnityPy](https
    Optionally set up a DeepL API key for higher-quality translations (see [Python setup](#python-setup) below).
 
 3. **Translate GUI images** *(optional)*  
-   GUI textures and atlases with embedded Japanese text are harder to localize automatically. This is where your help is most needed! If you can either create a tool that can do that reliably or edit them manually and submit a pull request, that would be greatly appreciated!
+   Place translated images in `assets/{lang}/img/` using the same filenames as in `assets/original/img/`. The script will automatically replace matching textures in the datapack during patching. If no `img/` folder is present, this step is skipped.
+   
+   GUI textures with embedded Japanese text still need manual editing. If you can contribute translated images, open a pull request.
 
 4. **Patch the APK**  
    Upload your original APK and patched `{lang}.unity3d` to the online patcher:  

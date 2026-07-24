@@ -10,7 +10,7 @@ wheels/
 tools/.env
 # Virtual environments
 .venv
-
+assets/original/datapack.unity3d
 # Font files (keep fonts/README.md)
 fonts/*.ttf
 fonts/*.otf
