@@ -48,6 +48,50 @@ def collect_japanese_texts(text: str, found: dict):
             found[decoded] = None
 
 
+def collect_all_texts(text: str, found: dict):
+    """Collect ALL translatable field values regardless of language.
+
+    Non-Japanese strings are stored with identity mapping (key == value)
+    so they appear in translations.json for font character coverage.
+    """
+    for match in FIELD_RE.finditer(text):
+        raw_value = match.group("val")
+        decoded = json.loads('"' + raw_value + '"')
+        if decoded.strip():
+            found[decoded] = None
+
+
+def normalize_translated_text(text: str) -> str:
+    """Clean up Japanese formatting artifacts in translated text."""
+    # Replace full-width ASCII characters (！？Ａ-Ｚ etc.) with normal ASCII
+    # Full-width range U+FF01-FF5E maps to U+0021-007E
+    text = ''.join(
+        chr(ord(c) - 0xFEE0) if '\uff01' <= c <= '\uff5e' else c
+        for c in text
+    )
+    # Replace full-width space (\u3000) with regular space
+    text = text.replace('\u3000', ' ')
+    # Replace Japanese brackets with Western equivalents
+    text = text.replace('\u300c', '"').replace('\u300d', '"')
+    text = text.replace('\u300e', '"').replace('\u300f', '"')
+    text = text.replace('\u3010', '[').replace('\u3011', ']')
+    text = text.replace('\uff08', '(').replace('\uff09', ')')
+    # Remove spaces inside French guillemets: « text » -> «text»
+    text = re.sub(r'«\s+', '«', text)
+    text = re.sub(r'\s+»', '»', text)
+    # Remove space before punctuation: word ! -> word!
+    text = re.sub(r' +([!?;:,.])', r'\1', text)
+    # Remove space after punctuation when before closing quote/bracket
+    text = re.sub(r'([!?;:,.]) +([»")\\]\)])', r'\1\2', text)
+    # Collapse multiple spaces into one (but not around \n)
+    text = re.sub(r' {2,}', ' ', text)
+    # Clean up spacing around literal \n: \n followed by spaces -> \n
+    text = re.sub(r'\\n +', '\\n', text)
+    # Remove \n when only 1-3 characters remain after it (orphaned line break)
+    text = re.sub(r'\\n(.{1,3})$', r'\1', text)
+    return text
+
+
 def replace_japanese_texts(text: str, mapping: dict) -> str:
     """Replace Japanese text in translatable JSON string values in raw text."""
 
@@ -57,7 +101,7 @@ def replace_japanese_texts(text: str, mapping: dict) -> str:
         raw_value = match.group("val")
         decoded = json.loads('"' + raw_value + '"')
         if is_japanese(decoded) and decoded in mapping:
-            decoded = mapping[decoded]
+            decoded = normalize_translated_text(mapping[decoded])
         encoded = json.dumps(decoded, ensure_ascii=False)[1:-1]
         return f'"{key}"{sep}"{encoded}"'
 
@@ -240,9 +284,10 @@ def main():
         print(f"No *.bytes files found under {assets_dir}")
         return
 
-    # First pass: validate files are JSON and collect all unique Japanese strings.
+    # First pass: validate files are JSON and collect all translatable strings.
     parsed_files: list[tuple[Path, str]] = []
     all_japanese_texts: dict[str, None] = {}
+    all_texts: dict[str, None] = {}
     for asset_path in asset_files:
         try:
             text = asset_path.read_text(encoding="utf-8", newline="")
@@ -252,14 +297,24 @@ def main():
             continue
 
         collect_japanese_texts(text, all_japanese_texts)
+        collect_all_texts(text, all_texts)
         parsed_files.append((asset_path, text))
+
+    # Add non-Japanese strings with identity mapping for font coverage
+    for msg in all_texts:
+        if msg not in translations:
+            if not is_japanese(msg):
+                translations[msg] = msg
 
     to_translate = [t for t in all_japanese_texts if t not in translations]
     if to_translate:
         new_translations = translate_texts(to_translate, target=target_lang)
         translations.update(new_translations)
-        with translations_cache.open("w", encoding="utf-8") as f:
-            json.dump(translations, f, ensure_ascii=False, indent=2)
+
+    # Always save — includes both translated and identity-mapped strings
+    with translations_cache.open("w", encoding="utf-8") as f:
+        json.dump(translations, f, ensure_ascii=False, indent=2)
+    print(f"  translations.json: {len(translations)} entries")
 
     # Second pass: replace strings in the original raw text and write out.
     output_textasset_dir.mkdir(parents=True, exist_ok=True)

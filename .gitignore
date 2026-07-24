@@ -10,3 +10,7 @@ wheels/
 tools/.env
 # Virtual environments
 .venv
+
+# Font files (keep fonts/README.md)
+fonts/*.ttf
+fonts/*.otf

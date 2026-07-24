@@ -27,69 +27,52 @@ If you want to help, open an issue or pull request on GitHub. Every contribution
 
 ## What you can do here
 
-- Extract the original `datapack.unity3d` from the APK.
-- Pull out `TextAsset` files with tools such as **AssetRipper**.
 - Translate story dialogue and UI text into multiple languages.
+- Replace the in-game font with one that supports the target script.
+- Generate a patched `datapack.unity3d` ready to be inserted into the APK.
 - Translate or edit GUI image assets (textures, atlases) that contain Japanese text.
-- Repack the edited assets back into `datapack.unity3d` with **uabea**.
-- Replace the original `datapack.unity3d` in the APK and install the patched game.
 
-## What tools could be used
+## How it works
 
-| Tool | Purpose |
-|------|---------|
-| **AssetRipper** (not necessary) | Dump the contents of `datapack.unity3d` into readable files (TextAssets, textures, meshes, etc.). This is the easiest way to get the initial assets. |
-| **uabea** | Modify the `datapack.unity3d` asset bundle directly — replace translated TextAssets and textures without rebuilding the entire bundle from scratch. |
-| **Python scripts in `tools/translation_tools/`** | Automate text extraction, translation, and conversion back to the Unity `m_Name` / `m_Script` wrapper format used by uabea. |
+Everything is handled by a single Python script. The script uses [UnityPy](https://github.com/K0lb3/UnityPy) to read and write Unity asset bundles directly.
 
-
-
-> Each language folder uses the two-letter code the translators expect (`en`, `es`, `fr`, `zh`, `de`, `ko`, `nl`, etc.). Learn more in `tools/translation_tools/README.MD`.
+> Each language folder uses the two-letter code the translators expect (`en`, `es`, `fr`, `de`, `ko`, `nl`, etc.). Learn more in `tools/translation_tools/README.MD`.
 
 ## Quick workflow
 
 1. **Get the APK**  
    Obtain `original_app.apk` from your own copy of the game.
    
-   Change the extension to `.zip` (e.g., rename it to `original_app.zip`) and unzip it. The datapack is located at:
+   Change the extension to `.zip` (e.g., rename it to `original_app.zip`) and unzip it. Copy the datapack to `assets/original/`:
    ```
-   assets/bin/Data/datapack.unity3d
+   assets/bin/Data/datapack.unity3d  →  assets/original/datapack.unity3d
    ```
 
-2. **Dump the assets (not necessary since the original assets that need translating are already extracted)**  
-   Open `datapack.unity3d` with **AssetRipper** (or any other tool, but this is the one that I personally used) and export the assets.
-
-   Copy the `Assets\TextAsset\*.bytes` files into `assets/original/TextAsset/`. 
-
-   Images can be extracted from `Assets\Texture2D`.
-
-3. **Translate the text**  
+2. **Translate and patch**  
    ```bash
    cd tools/translation_tools
-   python translate_assets.py
+   python main.py
    ```
-   - Set your `DEEPL_API_KEY` in `.env` to your DeepL API key as demonstrated in `.env.example`. If you don't have an API key, follow the instructions [here](https://developers.deepl.com/docs/getting-started/quickstart).
-   - Select the language folder you want to translate.
-   - The script reads from `assets/original/TextAsset/`, translates Japanese strings, and writes the results to `assets/{lang}/TextAsset/`.
-   - It also produces `assets/{lang}/converted_assets/TextAsset/` in the `m_Name` / `m_Script` format Unity expects.
+   The script will:
+   - List available language folders and ask you to pick one (or all).
+   - Translate Japanese text using DeepL or Google Translate.
+   - Prompt you to select a replacement font from `fonts/`.
+   - Generate an SDF atlas and patch the font asset.
+   - Replace TextAssets in `datapack.unity3d` with translated versions.
+   - Save the patched datapack to `assets/{lang}/{lang}.unity3d`.
 
-   - If your language is not available, you can create a folder yourself with its designated language code (used by DeepL).
+   If your language is not available, create a folder with a `TextAsset/` subfolder under `assets/` using the language's two-letter code.
 
-4. **Translate GUI images**  
+   Optionally set up a DeepL API key for higher-quality translations (see [Python setup](#python-setup) below).
+
+3. **Translate GUI images** *(optional)*  
    GUI textures and atlases with embedded Japanese text are harder to localize automatically. This is where your help is most needed! If you can either create a tool that can do that reliably or edit them manually and submit a pull request, that would be greatly appreciated!
 
-5. **Repack with uabea**  
-   - Open `datapack.unity3d` in **uabea**.
-   - Navigate to `sharedassets2.assets`
-   - Search for assets that you want to replace and edit them using the button. From there you can delete the current content and replace it with your translated content in the `converted_assets` folder. There might be a better way than replacing each asset manually, but I haven't found it yet. If it could be done programmatically instead of needing 3rd party tools, let me know.
-   - Save the modified `datapack.unity3d`.
-
-   ![uabea explainer](images/uabea_explainer.png)
-
-6. **Patch the APK**  
-   Replace the original `datapack.unity3d` inside `original_app.apk` with the modified one, re-sign the APK, and install it on your device.
-   For that you can use this website:
+4. **Patch the APK**  
+   Upload your original APK and patched `{lang}.unity3d` to the online patcher:  
    [senko-san-to-isshou-localizer-site.vercel.app](https://senko-san-to-isshou-localizer-site.vercel.app/)
+
+   The site handles resigning and repackaging for you.
 
    ([source code](https://github.com/iznkd/Senko-san_to_Isshou_localizer_site))
 

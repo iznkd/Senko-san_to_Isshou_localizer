@@ -4,7 +4,13 @@ version = "0.1.0"
 description = "Tools for translating the Senko-san to Isshou game"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = ["python-dotenv==1.0.0"]
+dependencies = [
+    "python-dotenv==1.0.0",
+    "UnityPy>=1.10.0",
+    "numpy>=1.26.0",
+    "Pillow>=10.0.0",
+    "scipy>=1.12.0",
+]
 
 [tool.setuptools]
 packages = []

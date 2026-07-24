@@ -5,289 +5,289 @@
       {
         "No": 1,
         "File_Name": "story01",
-        "Title": "The Serious Incident of Fantume Kingdom",
+        "Title": "Le grand événement du royaume de Fantôme",
         "Summary": "1-1"
       },
       {
         "No": 2,
         "File_Name": "story02",
-        "Title": "To Be United for Friends",
+        "Title": "Faire front commun pour nos camarades",
         "Summary": "1-1"
       },
       {
         "No": 3,
         "File_Name": "story03",
-        "Title": "Ghosts Are Good Building Materials",
+        "Title": "Les fantômes sont un excellent matériau de construction",
         "Summary": "1-4"
       },
       {
         "No": 4,
         "File_Name": "story04",
-        "Title": "Palmure is Frank",
+        "Title": "Palmuir, c'est le genre «wééé»",
         "Summary": "1-4"
       },
       {
         "No": 5,
         "File_Name": "story05",
-        "Title": "The Bloodline of the Reaper",
+        "Title": "Ceux qui ont le sang de la Faucheuse dans les veines",
         "Summary": "1-7"
       },
       {
         "No": 6,
         "File_Name": "story06",
-        "Title": "The Craftsman of the Rubber",
+        "Title": "Des artisans qui misent sur les propriétés du caoutchouc",
         "Summary": "1-7"
       },
       {
         "No": 7,
         "File_Name": "story07",
-        "Title": "Fue and Witch",
+        "Title": "Foo et la sorcière",
         "Summary": "2-1"
       },
       {
         "No": 8,
         "File_Name": "story08",
-        "Title": "Study Meeting for Princess",
+        "Title": "Atelier d'apprentissage du marteau de la princesse",
         "Summary": "2-1"
       },
       {
         "No": 9,
         "File_Name": "story09",
-        "Title": "Don't Be Deceived by Fancy Face",
+        "Title": "Ce type à l'air naïf, mais qui est un vrai sadique",
         "Summary": "2-4"
       },
       {
         "No": 10,
         "File_Name": "story10",
-        "Title": "Witch's True Purpose",
+        "Title": "Le véritable objectif de la sorcière",
         "Summary": "2-4"
       },
       {
         "No": 11,
         "File_Name": "story11",
-        "Title": "Phantom Killer with Hammer",
+        "Title": "L'affaire du tueur à la marteau",
         "Summary": "2-7"
       },
       {
         "No": 12,
         "File_Name": "story12",
-        "Title": "All's Well that Is Comfortable",
+        "Title": "Si ça t'a fait du bien, c'est très bien, non?",
         "Summary": "2-7"
       },
       {
         "No": 13,
         "File_Name": "story13",
-        "Title": "The Rumor of Tentation Lake",
+        "Title": "La formule magique du lac de Tantasion",
         "Summary": "3-1"
       },
       {
         "No": 14,
         "File_Name": "story14",
-        "Title": "Childhood Memories",
+        "Title": "Souvenirs d'enfance",
         "Summary": "3-1"
       },
       {
         "No": 15,
         "File_Name": "story15",
-        "Title": "Aqua and Fue",
+        "Title": "Aqua et Fu",
         "Summary": "3-5"
       },
       {
         "No": 16,
         "File_Name": "story16",
-        "Title": "The Reason for Tears",
+        "Title": "La raison de ces larmes, c'est que…",
         "Summary": "3-5"
       },
       {
         "No": 17,
         "File_Name": "story17",
-        "Title": "Villain Must Act Villain",
+        "Title": "Un méchant doit se comporter comme un méchant",
         "Summary": "3-9"
       },
       {
         "No": 18,
         "File_Name": "story18",
-        "Title": "Unexpected Words",
+        "Title": "Des mots inattendus",
         "Summary": "3-9"
       },
       {
         "No": 19,
         "File_Name": "story19",
-        "Title": "Aurora Can't Stop Suddenly",
+        "Title": "Aurora ne peut pas s'arrêter brusquement",
         "Summary": "4-1"
       },
       {
         "No": 20,
         "File_Name": "story20",
-        "Title": "Figure Shimmering on the Lake",
+        "Title": "Sa silhouette se reflétant sur l'eau",
         "Summary": "4-1"
       },
       {
         "No": 21,
         "File_Name": "story21",
-        "Title": "Thanks for Burial",
+        "Title": "Remerciements suite aux funérailles",
         "Summary": "4-5"
       },
       {
         "No": 22,
         "File_Name": "story22",
-        "Title": "Spisa Protests",
+        "Title": "La réfutation de Spisa",
         "Summary": "4-5"
       },
       {
         "No": 23,
         "File_Name": "story23",
-        "Title": "Fue and Aurora",
+        "Title": "Foo et Aurora",
         "Summary": "4-9"
       },
       {
         "No": 24,
         "File_Name": "story24",
-        "Title": "Bad Customs",
+        "Title": "Les mauvaises coutumes du passé",
         "Summary": "4-9"
       },
       {
         "No": 25,
         "File_Name": "story25",
-        "Title": "Dark Demonus Forest",
+        "Title": "La forêt de Demonas, plongée dans la pénombre",
         "Summary": "5-1"
       },
       {
         "No": 26,
         "File_Name": "story26",
-        "Title": "Witch's Fearless Smile",
+        "Title": "Le sourire effronté de la sorcière",
         "Summary": "5-1"
       },
       {
         "No": 27,
         "File_Name": "story27",
-        "Title": "Dark Spirit Buio",
+        "Title": "Bouyo, l'esprit des ténèbres",
         "Summary": "5-6"
       },
       {
         "No": 28,
         "File_Name": "story28",
-        "Title": "Selected One",
+        "Title": "celui qui a été choisi",
         "Summary": "5-6"
       },
       {
         "No": 29,
         "File_Name": "story29",
-        "Title": "The Witch who Leapt Through the Forest",
+        "Title": "La sorcière qui court dans la forêt",
         "Summary": "5-11"
       },
       {
         "No": 30,
         "File_Name": "story30",
-        "Title": "Light Spirit Luce",
+        "Title": "Luce, l'esprit de la lumière",
         "Summary": "5-11"
       },
       {
         "No": 31,
         "File_Name": "story31",
-        "Title": "Secret of Starlight Hammer",
+        "Title": "Le secret du marteau Starlight",
         "Summary": "6-1"
       },
       {
         "No": 32,
         "File_Name": "story32",
-        "Title": "The Mistake of the Kingdom",
+        "Title": "Les erreurs du royaume",
         "Summary": "6-1"
       },
       {
         "No": 33,
         "File_Name": "story33",
-        "Title": "Fantume Sisters",
+        "Title": "Deux sœurs face à face",
         "Summary": "6-6"
       },
       {
         "No": 34,
         "File_Name": "story34",
-        "Title": "Serata's Dearest",
+        "Title": "Le rêve de Sellata",
         "Summary": "6-6"
       },
       {
         "No": 35,
         "File_Name": "story35",
-        "Title": "Peaceful Afternoon",
+        "Title": "Un après-midi paisible",
         "Summary": "6-11"
       },
       {
         "No": 36,
         "File_Name": "story36",
-        "Title": "Aqua Preaches",
+        "Title": "La leçon d'Aqua",
         "Summary": "6-11"
       },
       {
         "No": 37,
         "File_Name": "story37",
-        "Title": "The Day of Succession to Noblesse Hammer",
+        "Title": "Le jour de la transmission du marteau de Noblesse",
         "Summary": "7-1"
       },
       {
         "No": 38,
         "File_Name": "story38",
-        "Title": "Aurora's Mental Conflict",
+        "Title": "Les tourments d'Aurora",
         "Summary": "7-1"
       },
       {
         "No": 39,
         "File_Name": "story39",
-        "Title": "The Negotiation of Spirits",
+        "Title": "Les négociations des esprits",
         "Summary": "7-9"
       },
       {
         "No": 40,
         "File_Name": "story40",
-        "Title": "Relationship Between Two",
+        "Title": "Une relation qui ne change pas entre ces deux-là",
         "Summary": "7-9"
       },
       {
         "No": 41,
         "File_Name": "story41",
-        "Title": "Imitation Happiness",
+        "Title": "Un bonheur de façade",
         "Summary": "8-4"
       },
       {
         "No": 42,
         "File_Name": "story42",
-        "Title": "The Price of Magic",
+        "Title": "Le prix de la magie",
         "Summary": "8-4"
       },
       {
         "No": 43,
         "File_Name": "story43",
-        "Title": "Sacrifice Fue",
+        "Title": "Foo, le sacrifice",
         "Summary": "8-11"
       },
       {
         "No": 44,
         "File_Name": "story44",
-        "Title": "Anyway from Now on",
+        "Title": "À l'avenir, autant que l'on veut",
         "Summary": "8-11"
       },
       {
         "No": 45,
         "File_Name": "story45",
-        "Title": "The Power of Starlight Hammer",
+        "Title": "Le pouvoir du marteau Starlight",
         "Summary": "8-15"
       },
       {
         "No": 46,
         "File_Name": "story46",
-        "Title": "Cheers of the Ghosts",
+        "Title": "Les encouragements des fantômes",
         "Summary": "8-15"
       },
       {
         "No": 47,
         "File_Name": "story47",
-        "Title": "Two Princesses",
+        "Title": "Les deux princesses",
         "Summary": "8-16"
       },
       {
         "No": 48,
         "File_Name": "story48",
-        "Title": "Fue and Serata",
+        "Title": "Foo et Serata",
         "Summary": "8-16",
         "NextEpisodeLine":"Ending"
 
@@ -295,7 +295,7 @@
       {
         "No": 49,
         "File_Name": "story49",
-        "Title": "The Sequel to Dream",
+        "Title": "La suite du rêve",
         "Summary": "Epilog",
         "NextEpisodeLine":"Credit"
 
